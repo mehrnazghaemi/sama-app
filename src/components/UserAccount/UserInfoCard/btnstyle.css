@@ -1,0 +1,18 @@
+
+input[type="file"] { 
+    opacity: 0; /* make transparent */
+    z-index: -1; /* move under anything else */
+    position: absolute; /* don't let it take up space */
+  }
+  input[type="file"]:focus + label {
+    outline: 2px solid;  /* example focus style */
+  }
+  
+  .dropdown-toggle ::after {
+    top: 0;
+    right: 0;
+    position: absolute;
+    width: 60px;
+    height: 60px!important;
+    opacity: 0;
+  }

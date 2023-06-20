@@ -1,0 +1,19 @@
+.parent{
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    overflow: hidden;
+    }
+    .bg-stars{
+      position: absolute;
+      background-color: rgb(255, 217, 0);
+      /* width: 80px; */
+      height: 15px;
+      z-index: 1;
+    }
+    .parent img{
+      width: 80px;
+      height: 15px;
+      z-index: 5;
+    }

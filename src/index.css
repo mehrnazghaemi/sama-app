@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* import kalameh font face */
+@import "assets/styles/fonts-face/kalameh/font-face.css";
+/* import vazirmatn font face */
+@import "assets/styles/fonts-face/vazirmatn/font-face.css";
+
+/* fix the blue highlight of button on mobile* */
+input,
+textarea,
+button,
+select,
+a {
+	-webkit-tap-highlight-color: transparent;
+}
+
+.mantine-TextInput-input {
+	text-align: right;
+	border: 2px #c8c8c8 solid;
+	
+}
+.mantine-TextInput-input:focus {
+	text-align: right;
+	
+}

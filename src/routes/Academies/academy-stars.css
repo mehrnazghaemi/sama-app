@@ -1,0 +1,33 @@
+.parent{
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    overflow: hidden;
+    }
+    .bg-stars{
+      position: absolute;
+      background-color: rgb(255, 217, 0);
+      /* width: 80px; */
+      height: 15px;
+      z-index: 1;
+    }
+    .parent img{
+      width: 80px;
+      height: 15px;
+      z-index: 5;
+    }
+    select::-ms-expand{
+      display: none;
+    }
+    select{
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+    }
+    select option{
+      padding: 20px 30px;
+    }
+    *,::before, ::after{
+      --tw-ring-color: #eee !important;
+    }

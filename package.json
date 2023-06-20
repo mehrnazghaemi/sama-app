@@ -1,0 +1,87 @@
+{
+  "name": "sama-app",
+  "version": "1.1.9",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.11.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@mantine/core": "^6.0.11",
+    "@mantine/form": "^6.0.11",
+    "@mantine/hooks": "^6.0.11",
+    "@material-ui/core": "^4.12.4",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.4.0",
+    "bootstrap-navbar-dropdowns": "^5.0.2",
+    "buffer": "^6.0.3",
+    "clipboard-copy": "^4.0.1",
+    "fs": "^0.0.1-security",
+    "html-react-parser": "^3.0.16",
+    "lazy-load": "^0.0.2",
+    "mapir-react-component": "^2.0.7",
+    "material-ui-slider": "^3.0.8",
+    "persian-tools": "^0.0.5",
+    "persianjs": "^0.4.0",
+    "placeholder": "^1.0.2",
+    "react": "^18.2.0",
+    "react-accessible-accordion": "^5.0.0",
+    "react-avatar-editor": "^13.0.0",
+    "react-bootstrap": "^2.7.4",
+    "react-bottom-drawer": "^0.1.1",
+    "react-clip-loader": "^1.0.3",
+    "react-copy-to-clipboard": "^5.1.0",
+    "react-countdown": "^2.3.5",
+    "react-dom": "^18.2.0",
+    "react-html-parser": "^2.0.2",
+    "react-iframe": "^1.8.5",
+    "react-infinite-scroll-component": "^6.1.0",
+    "react-lazy-blur-image": "^0.1.2",
+    "react-lazy-load-image-component": "^1.5.6",
+    "react-lazyload": "^3.2.0",
+    "react-loader-spinner": "^5.3.4",
+    "react-native-webview": "^12.2.0",
+    "react-rating": "^2.0.5",
+    "react-router-dom": "^6.11.2",
+    "react-scripts": "^5.0.1",
+    "react-scroll": "^1.8.9",
+    "react-share": "^4.4.1",
+    "react-spinners": "^0.13.8",
+    "react-webview": "^0.1.0",
+    "reactjs-popup": "^2.0.5",
+    "remarkable": "^2.0.1",
+    "spinner": "^0.3.4",
+    "swiper": "^9.3.2",
+    "web-vitals": "^2.1.4",
+    "yup": "^1.1.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "tailwindcss": "^3.3.2"
+  }
+}
